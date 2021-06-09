@@ -17,11 +17,11 @@ a {
   color: #000; }
 
 a:visited {
-  color: #666; }
+  color: rgb(192, 65, 65); }
 
 a:hover {
-  color: #fff;
-  background-color: #000; }
+  color: #000f;
+  background-color: rgb(188, 240, 111); }
 
 th {
   padding-bottom: 5px; }
@@ -63,3 +63,27 @@ div.actions {
 
 label {
   display: block; }
+
+    table,
+    td,
+    th {
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    table {
+        width: 50%;
+        border-collapse: collapse;
+    }
+
+    .show--color {
+        color: #00BFFF;
+    }
+
+    .edit--color {
+        color: yellow;
+    }
+
+    .destroy--color {
+        color: #FF1493;
+    }
